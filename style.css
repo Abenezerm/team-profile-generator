@@ -1,0 +1,80 @@
+body{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+.heading{
+  background-color: #C44B4F;
+  padding-top: 15px;
+}
+.header{
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+}
+
+.Team-members{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+#team-membercard{
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  width: 30%;
+  border-style: solid;
+  border-width: thin;
+  margin-bottom: 30px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius:5%;
+  border-bottom-right-radius:5%;
+  box-shadow: 10px 5px 7px rgba(0, 0, 0, .3);
+}
+#card-title{
+  padding-left: 10%;
+  border-bottom-style: solid;
+  border-width: thin;
+  background-color: #004369;
+  border-top-left-radius: 6%;
+  border-top-right-radius: 6%;
+  color: white;
+}
+#name{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#role{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.card-content{
+  background-color: #EDF1F2;
+  border-bottom-left-radius:7%;
+  border-bottom-right-radius:7%;
+}
+#card-detail {
+  padding-left: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: grey;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  background-color: white;
+
+}
+p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: grey;
+}
+#last-line{
+  border-bottom-style: hidden;
+  margin-bottom: 5px;
+}
